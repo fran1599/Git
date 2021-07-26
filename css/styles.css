@@ -1,0 +1,385 @@
+/*comentarios en css*/
+/*selector (etiqueta, id, clase) {dentro la propiedad: valor para la propiedad}*/
+
+/*----------------COMIENZO ETIQUETAS----------------*/
+
+* {
+    margin: 0; 
+    padding: 0;
+    font-size: 100%; 
+    font-family: roboto, Arial, Tahoma, sans-serif; 
+}
+
+body {
+    background-color: rgb(252, 214, 216);
+}
+
+
+/*_______________menú_________________*/
+
+nav {
+    background-color: rgba(255, 240, 240, 0.90);
+    padding: 2px;
+}
+nav ul li {
+    padding:0px 6px;
+}
+
+/*_______________ETIQUETAS_________________*/
+p {
+    font-size: 1rem;
+}
+
+main div {
+    padding: 0vw;
+    height: 100vh;
+}
+
+
+article {
+    background-color: rgba(255, 255, 255, 70%);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 70%);
+    height: 20vh;
+    font-size: large;
+    text-align: center;
+    margin:10px 0px 0px;
+    padding-top: 4vh;
+}
+
+.titCentrado {
+    margin: 70px 70px 50px;
+    text-align: center;
+}
+
+form {
+    margin: 100px;
+    font-size: 0.9rem;
+    text-align:left;
+    line-height: 4vh;
+}
+
+/*----------------PÁGINA DE SOBRE NOSOTRXS-----------------*/
+
+.artIdent {
+    border-radius: 1.5vw;
+    line-height: 6vh;
+    padding: 1vw 3vw;
+    margin: 4vw;
+    text-align: justify;
+}
+
+.titIdent {
+    font-weight: 900;
+    padding-bottom: 1vw;
+    
+}
+
+.txtIdent {
+    text-indent: 3vw;
+    padding: 0vh 2vw 1.5vw;
+}
+
+.titPrinc {
+    font-weight: 900;
+}
+
+/*--------------------------FICA---------------------------*/
+
+#aplica {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw;
+}
+
+#aplica li a img {
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 15%);
+    border-radius: 1vw;
+    margin: 0px;
+    width: 19vw;
+    height: 9vh;
+    transition: all 0.5s;
+}
+
+.btnLink {
+    transition: all 0.3s;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 1vw;
+    
+}
+
+.btnLink:hover {
+    transform: scale(1.05);
+    padding: 0px;
+}
+
+#aplica li a img:hover {
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 40%);
+    
+}
+
+/*-------------------PÁGINA DE OTRO LADO-------------------*/
+.textoCentrado {
+    background-color: rgba(255, 255, 255, 0%);
+    text-align: center;
+    font-weight: bold;
+    line-height: 4vh;
+    padding: 2vw 10vw 7vw;
+}
+
+#nuestraPropuesta {
+    display: flex;
+    padding-top: 0px;
+}
+
+.lados {
+    border-radius: 1.5vw;
+    line-height: 4.5vh;
+    padding: 1vw 3vw;
+    margin: 4vw;
+    text-align: justify;
+}
+
+/*----------------PÁGINA DE CONTRACULTURA----------------*/
+
+
+
+/*----------------PÁGINA DE CONTACTO-----------------*/
+#dejanosTuMensaje {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0px 0px 40px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*------------------------------------Media queries------------------------------------*/
+
+/*----------------Tablet-------------------*/
+
+@media only screen and (min-width:321px) and (max-width:768px)  {
+    /*Carrusel*/
+    
+    
+    main section {
+        height: 100%;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 1rem; 
+        padding: 15px 5px;
+    }
+
+/*convocatorias*/
+
+    .convocs {
+        padding: 0px 0px 15px;
+    }
+
+    .convA {
+        margin: 15px;
+        padding: 10px;
+        border-radius: 1.5vw;
+        grid-template-areas: "convA__img convA__titulo" "convA__img convA__texto";
+    }
+
+    .convA__img {
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+    }
+
+    .convA__titulo {
+        font-size: 4vw;
+        margin-top: 1vh;
+    }
+    
+    .convA__texto {
+        text-align: center;
+        line-height: 18px;
+        font-size: 2vw;
+    }
+
+    .convB {
+        margin: 15px;
+        padding: 10px;
+        grid-template-areas:"convB__titulo convB__img" "convB__texto convB__img ";
+    }
+
+    .convB__img {
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+    }
+
+    .convB__titulo {
+        font-size: 4vw;
+        margin-top: 1vh;
+    }
+    
+    .convB__texto {
+        text-align: center;
+        line-height: 18px;
+        font-size: 2vw;
+    }
+
+    /*Blog-Noticias*/
+
+    .notiBlog {
+        padding: 15px 0px 0px 0px;
+        margin: 0px;
+        grid-template-columns: 95% ;
+        
+    }
+
+    .notiBlogBox__img {
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        height: 23vw;
+        width: 100%;
+        object-fit:cover;
+    }
+
+    .notiBlogBox__texto {
+        padding: 0%;
+        line-height: 100%;
+        font-size: 2vw;
+    }
+
+    .notiBlogBox__titulo {
+        font-size: 3vw;
+        font-weight: 900;
+        padding: 0px 10px 2px;
+    }
+
+    .notiBlog {
+        margin: 10px;
+        height:fit-content;
+        padding: 1.5%;
+    }
+}
+
+
+/*----------------SmartPhone-------------------*/
+
+
+@media only screen and (max-width:320px){
+    /*Carrusel*/
+
+
+    main section {
+        height: 100%;
+        width: 100%;
+    }
+
+/*convocatorias*/
+
+    .convocatorias {
+        padding: 0px 0px 15px;
+    }
+
+    .articuloConvA {
+        margin: 15px;
+        padding: 10px;
+        border-radius: 1.5vw;
+        grid-template-areas: "convA__img" "convA__titulo" "convA__texto";
+    }
+
+    .convA__img {
+        
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        width: 83vw;
+    }
+
+    .convA__titulo {
+        font-size: 5vh;
+        padding: 1vw;
+        font-weight: 900;
+        margin-top: 1vh;
+    }
+    
+    .convA__texto {
+        text-align:center;
+        margin: 0px;
+        line-height: 5vw;
+        font-size: 3.9vw;
+    }
+
+    .articuloConvB {
+        margin: 15px;
+        padding: 10px;
+        grid-template-areas:
+        "convB__img" "convB__titulo" "convB__texto";
+    }
+
+    .convB__img {
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        width: 83vw;
+    }
+
+    .convB__titulo {
+        font-size: 5vh;
+        padding: 1vw;
+        font-weight: 900;
+        margin-top: 1vh;
+    }
+    
+    .convB__texto {
+        text-align: center;
+        margin: 0px;
+        line-height: 5vw;
+        font-size: 3.9vw;
+    }
+
+    /*Blog-Noticias*/
+
+    .notiBlog {
+        padding: 15px 0px 0px;
+        margin: 0px;
+        grid-template-columns: 95vw ;
+        
+    }
+
+    .notiBlogBox__img {
+        border: 1px solid rgb(88, 88, 88);
+        margin: 0px;
+        width: 82.5vw;
+    }
+
+    .notiBlogBox__titulo {
+        font-size: 6vw;
+        margin: 1.5vh;
+        padding: 0px;
+    }
+
+    .notiBlogBox__texto {
+        text-align: justify;
+        line-height: 18px;
+        font-size: 2vw;
+        padding: 0px;
+    }
+
+    .notiBlog {
+        border-radius: 1.5vw;
+        margin: 10px;
+        padding: 2.8vw;
+    }
+}
+
+
