@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: rgb(252, 214, 216);
+    background-color: rgba(204, 0, 255, 0.233);
 }
 
 
@@ -37,11 +37,11 @@ main div {
 
 
 article {
-    background-color: rgba(255, 255, 255, 70%);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 70%);
+    background-color: rgba(255, 255, 255, 0.2);
     height: 20vh;
     font-size: large;
     text-align: center;
