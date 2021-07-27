@@ -11,14 +11,14 @@
 }
 
 body {
-    background-color: rgba(204, 0, 255, 0.233);
+    background-color: rgba(255, 71, 215, 0.233);
 }
 
 
 /*_______________menú_________________*/
 
 nav {
-    background-color: rgba(255, 240, 240, 0.90);
+    background-color: rgba(195, 209, 255, 0.897);
     padding: 2px;
 }
 nav ul li {
