@@ -6,7 +6,7 @@
 
 .tituloCentrado {
   text-align: center;
-  text-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
+  text-shadow: 3px 3px 20px #585858;
   font-weight: 900;
   font-size: 1.6rem;
 }
@@ -26,8 +26,8 @@
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  -webkit-box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
-          box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
+  -webkit-box-shadow: 3px 3px 20px #585858;
+          box-shadow: 3px 3px 20px #585858;
 }
 
 .convocs .convA .convA__img {
@@ -65,8 +65,8 @@
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  -webkit-box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
-          box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
+  -webkit-box-shadow: 3px 3px 20px #585858;
+          box-shadow: 3px 3px 20px #585858;
 }
 
 .convocs .convB .convB__img {
@@ -105,8 +105,8 @@
 
 .notiBlog .notiBlogBox {
   border-radius: 1.5vw;
-  -webkit-box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
-          box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
+  -webkit-box-shadow: 3px 3px 20px #585858;
+          box-shadow: 3px 3px 20px #585858;
   margin-bottom: 30px;
 }
 
@@ -148,8 +148,8 @@ div form input {
 }
 
 div form .boton {
-  -webkit-box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
-          box-shadow: 3px 3px 20px rgba(88, 88, 88, 0.3);
+  -webkit-box-shadow: 3px 3px 20px #585858;
+          box-shadow: 3px 3px 20px #585858;
   font-weight: 300;
   width: 20vh;
   margin: 2.5vh 20px 0px 0px;
